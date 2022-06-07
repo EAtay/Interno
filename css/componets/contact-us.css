@@ -1,0 +1,79 @@
+.contact-us {
+    width: 100%;
+    padding: 0px 120px;
+}
+
+.container__contact-us {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.left__side {
+    height: 581px;
+    max-width: 592px;
+    padding: 41px 0;
+}
+
+.contact-us-title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.contact-us-description {
+    width: 531px;
+    margin-top: 43px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.contact-us-context {
+    max-width: 492px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.call-logo {
+    margin-top: 40px;
+    display: flex;
+}
+
+.call-us {
+    padding: 5px 0 0 20px;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.call-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.estimate-btn {
+    margin-top: 49px;
+}
+
+.right__side {
+    max-width: 592px;
+    height: 635px;
+}

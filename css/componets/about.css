@@ -1,0 +1,81 @@
+.about {
+    margin: auto;
+    width: 100%;
+    padding: 141px 120px 0 150px;
+}
+
+.about__container {
+    padding: 104px 0;
+    max-width: 1200px;
+    background: #F4F0EC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 70px;
+}
+
+.about__title {
+    font-family: 'DM Serif Display';
+    max-width: 479px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.about__cards {
+    gap: 0 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 289px;
+    max-width: 1100px;
+    margin: 47px 0;
+}
+
+.about-card {
+    height: 287px;
+    width: 354px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 49px 30px 0 35px;
+}
+
+.card-bio {
+    height: 77px;
+    width: 289px;
+    display: flex;
+}
+
+.author {
+    padding: 8px 0 0 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.author-name {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.author-location {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.card-discription {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
