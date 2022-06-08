@@ -7,7 +7,6 @@
     margin: auto;
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
 }
 
 .arcticle-card {
@@ -15,10 +14,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 395px;
     max-width: 400px;
-    padding: 76px 52px 75px 52px;
+    padding: 46px 52px 75px 52px;
 }
+
 .card-title {
     font-family: DM Serif Display;
     font-size: 25px;
@@ -38,5 +37,39 @@
 }
 
 .article-btn {
-    margin-top: 14px;
+    height: 47px;
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #4D5053;
+    background: none;
+}
+
+@media (max-width: 1200px) {
+    .article {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width:970px) {
+    .arcticle-card {
+        padding: 26px 32px 55px 32px;
+    }
+}
+@media (max-width:750px) {
+    .arcticle-card {
+        padding: 15px;
+    }
+}
+
+@media (max-width:650px) {
+    .article__container {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .arcticle-card {
+        width: 100%;
+    }
 }

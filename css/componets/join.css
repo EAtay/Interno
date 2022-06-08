@@ -1,6 +1,6 @@
 .join-us {
     width: 100%;
-    padding: 72px 120px 80px;
+    padding: 86px 120px 80px;
     text-align: center;
 
 }
@@ -35,4 +35,21 @@
 
 .join__btn {
     margin: 13px 0;
+}
+
+@media (max-width:320px) {
+    .join-us {
+        padding: 86px 15px 80px;
+    }
+
+    .join__title {
+        font-size: 36px;
+        line-height: 54px
+    }
+}
+
+@media (max-width:960px) {
+    .join-us {
+        padding: 86px 25px 80px;
+    }
 }

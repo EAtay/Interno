@@ -24,7 +24,7 @@
 
 .project__context {
     margin: auto;
-    width: 786px;
+    max-width: 786px;
     margin-top: 20px;
     font-size: 22px;
     line-height: 33px;
@@ -48,7 +48,7 @@
     margin-top: 20px;
 }
 .project__card {
-  max-width: calc(50% - 10px);
+    width: calc(50% - 10px);
     text-align: left;
     margin-bottom: 40px;
 }
@@ -86,4 +86,46 @@
 
 .card__btn {
     margin-top: 20px;
+}
+.card__btn:hover{
+    transition: ease-in-out .3s;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .recent-projects{
+      padding: 0 25px;
+    }
+    .project__cards{
+        flex-direction: column;
+        padding-top: 20px;
+        margin: auto;
+        width: 50%;
+    }
+    .project__card{
+        width: calc(100%);
+    }
+    .project__card-title,
+    .project__card-description{
+        line-height: 30px
+    }
+    .card__btn{
+        width: 0%;
+    }
+    .project__cards{
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+@media (max-width: 320px) {
+    .recent-projects{
+      padding: 0 15px;
+    }
+    .project__cards{
+        flex-direction: column;
+        width: 100%;
+    }
+    .project__card{
+        width: calc(100%);
+    }
 }

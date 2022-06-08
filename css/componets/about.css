@@ -7,7 +7,7 @@
 .about__container {
     padding: 104px 0 72px;
     max-width: 1200px;
-    height: auto;
+    height: 100%;
     margin: auto;
     background: #F4F0EC;
     display: flex;
@@ -31,8 +31,9 @@
 .about__cards {
     gap: 18px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 289px;
+    height: auto;
     max-width: 1100px;
     margin: 47px 0;
 }
@@ -80,4 +81,46 @@
     line-height: 30px;
     letter-spacing: 0.22px;
     color: #4D5053;
+}
+
+@media (max-width: 1200px) {
+    .about__container{
+        margin: 0 40px;
+    }
+}
+@media (max-width: 600px) {
+    .about__container{
+        border-radius: 0;
+    }
+    .about__title{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .about__container{
+        margin: 0;
+        padding: 20px 15px;
+    }
+    .about__title{
+        font-size: 40px;
+    }
+    .about-card,
+    .about__cards,
+    .card-bio{
+        width: 100%;
+    }
+}
+@media (max-width: 339px) {
+    .card-discription{
+        margin-top: 40px;
+    }
+    .author-name{
+        line-height: 25px;
+    }
+    .author-location{
+        line-height: 22px;
+    }
+    .card-discription{
+        line-height: 25px;
+    }
 }

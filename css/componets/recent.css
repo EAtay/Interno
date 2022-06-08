@@ -1,10 +1,10 @@
-.recent {
+#recent {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 144px;
+    margin: 144px 0 0;
 }
 
 .recent__title {
@@ -17,7 +17,7 @@
 }
 
 .recent__context {
-    width: 589px;
+    max-width: 589px;
     margin: auto;
     margin-top: 20px;
     font-weight: 400;
@@ -28,15 +28,16 @@
 }
 
 .recent__container {
-    max-width: 1220px;
-    margin: 70px 110px;
+    margin: 70px 0;
+    justify-content: center;
+        max-width: 1220px;
+    padding-left: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .recent__card {
-    height: 515px;
     padding: 21px;
     max-width: 387px;
     border: 1px solid #E7E7E7;
@@ -44,16 +45,15 @@
     text-align: left;
 }
 .recent__card:nth-child(n+4) {
-    margin-top: 20px;
+    margin-top: 36px;
 }
 
 .recent__card img {
-    height: 296px;
     width: 345px;
 }
 
 .recent__card-title {
-    margin-top: 9px;
+    margin-top: 12px;
     font-family: 'DM Serif Display';
     font-weight: 400;
     font-size: 25px;
@@ -69,11 +69,30 @@
     align-items: center;
 }
 
-
 .card-date {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.22px;
     color: #4D5053;
+}
+
+.btn__blogs:hover{
+    transition: ease-in-out .3s;
+    transform: scale(1.1);
+}
+
+@media (max-width:320px) {
+    .recent__container{
+        padding: 0 15px;
+    }
+    .recent__card{
+        width: 100%;
+    }
+    .recent__card img{
+        width: 100%;
+    }
+    .btn__blogs{
+        width: 40px;
+    }
 }
