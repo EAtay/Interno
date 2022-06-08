@@ -4,6 +4,12 @@
 @import url(./componets/acticle-section.css);
 @import url(./componets/contact-us.css);
 @import url(./componets/about.css);
+@import url(./componets/brands.css);
+@import url(./componets/projects.css);
+@import url(./componets/statisctic.css);
+@import url(./componets/recent.css);
+@import url(./componets/join.css);
+@import url(./componets/footer.css);
 *{
     margin: 0;
     padding: 0;

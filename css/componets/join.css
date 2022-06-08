@@ -1,0 +1,38 @@
+.join-us {
+    width: 100%;
+    padding: 72px 120px 80px;
+    text-align: center;
+
+}
+
+.join-us__container {
+    max-width: 1200px;
+    height: 415px;
+    background: #292F36;
+    border-radius: 70px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join__title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    padding: 100px 0 10px;
+}
+
+.join__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+}
+
+.join__btn {
+    margin: 13px 0;
+}

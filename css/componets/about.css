@@ -1,12 +1,14 @@
 .about {
     margin: auto;
     width: 100%;
-    padding: 141px 120px 0 150px;
+    padding: 134px 0 0;
 }
 
 .about__container {
-    padding: 104px 0;
+    padding: 104px 0 72px;
     max-width: 1200px;
+    height: auto;
+    margin: auto;
     background: #F4F0EC;
     display: flex;
     justify-content: center;
@@ -27,9 +29,9 @@
 }
 
 .about__cards {
-    gap: 0 18px;
+    gap: 18px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     height: 289px;
     max-width: 1100px;
     margin: 47px 0;

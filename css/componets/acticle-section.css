@@ -16,10 +16,9 @@
     align-items: center;
     text-align: center;
     height: 395px;
-    width: 400px;
-    padding: 75px 52px 75px 52px;
+    max-width: 400px;
+    padding: 76px 52px 75px 52px;
 }
-
 .card-title {
     font-family: DM Serif Display;
     font-size: 25px;

@@ -1,0 +1,14 @@
+.brands {
+    width: 100%;
+    margin-top: 140px;
+    padding: 0 120px;
+}
+.brands__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 85px 0 78px;
+}
+.brand-svg{
+    margin-left: 34px;
+}
