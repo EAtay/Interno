@@ -51,7 +51,7 @@
     .container__statistic{
         width: 70%;
         justify-content: space-between;
-        gap: 50px;
+        gap: 20px;
     }
     .statistic__item{
         width: calc(50% - 25px);
@@ -61,6 +61,7 @@
 }
 @media (max-width: 621px) {
     .container__statistic{
+        padding: 100px 0;
         flex-direction: column;   
     }
     .statistic__item{

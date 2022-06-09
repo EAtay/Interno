@@ -3,6 +3,7 @@ footer {
     padding: 52px 120px 0;
 }
 
+
 .footer__container {
     max-width: 1200px;
     margin: auto;
@@ -63,6 +64,9 @@ footer {
     font-size: 22px;
     letter-spacing: 0.22px;
     color: #4D5053;
+}
+.footer-li a{
+    color: #292F36;
 }
 
 .footer-bottom {
