@@ -1,11 +1,12 @@
 .join-us {
     width: 100%;
-    padding: 86px 120px 80px;
+    padding: 76px 120px 80px;
     text-align: center;
 
 }
 
 .join-us__container {
+    padding: 20px;
     max-width: 1200px;
     height: 415px;
     background: #292F36;
@@ -22,7 +23,7 @@
     line-height: 75px;
     letter-spacing: 0.22px;
     color: #FFFFFF;
-    padding: 100px 0 10px;
+    padding: 80px 0 10px;
 }
 
 .join__description {
@@ -44,7 +45,7 @@
 
     .join__title {
         font-size: 36px;
-        line-height: 54px
+        line-height: 54px;
     }
 }
 
@@ -52,15 +53,18 @@
     .join-us {
         padding: 46px 25px 80px;
     }
-    .join-us__container{
+
+    .join-us__container {
         width: 100%;
     }
-    .join__title{
-        padding: 80px 0 40px;
+
+    .join__title {
+        padding: 20px 0 40px;
         font-size: 42px;
         line-height: 45px;
     }
-    .join__btn{
+
+    .join__btn {
         width: 100%;
     }
 }

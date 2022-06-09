@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 144px 0 0;
+    margin: 124px 0 0;
 }
 
 .recent__title {
@@ -30,7 +30,7 @@
 .recent__container {
     margin: 70px 0;
     justify-content: center;
-        max-width: 1220px;
+    max-width: 1220px;
     padding-left: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +38,7 @@
 }
 
 .recent__card {
+    height: 515px;
     padding: 21px;
     max-width: 387px;
     border: 1px solid #E7E7E7;
@@ -45,7 +46,7 @@
     text-align: left;
 }
 .recent__card:nth-child(n+4) {
-    margin-top: 36px;
+    margin-top: 16px;
 }
 
 .recent__card img {
@@ -80,6 +81,18 @@
 .btn__blogs:hover{
     transition: ease-in-out .3s;
     transform: scale(1.1);
+}
+@media (max-width:1200px) {
+    .recent__card{
+        height: auto;
+    }
+    .recent__container{
+        justify-content: center;
+        gap: 20px;
+    }
+    .recent__card:nth-child(n+4) {
+        margin-top: 0;
+    }
 }
 @media (max-width:420px) {
     .recent__container{

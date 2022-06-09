@@ -83,7 +83,7 @@ footer {
     letter-spacing: 0.22px;
 }
 
-.bottom__description b{
+.bottom__description a{
     color: #CDA274;
     font-weight: 400;
 }
