@@ -44,6 +44,7 @@
     border: 1px solid #E7E7E7;
     border-radius: 62px;
     text-align: left;
+    position: relative;
 }
 
 .recent__card:nth-child(n+4) {
@@ -53,6 +54,7 @@
 .recent__card img {
     width: 345px;
 }
+
 
 .recent__card-title {
     margin-top: 12px;
@@ -78,15 +80,18 @@
     letter-spacing: 0.22px;
     color: #4D5053;
 }
-.btn__blogs{
+
+.btn__blogs {
     height: 52px;
     width: 52px;
     cursor: pointer;
     border-radius: 100px;
 }
+
 .btn__blogs:active {
     background: #4D5053;
-  }
+}
+
 .btn__blogs:hover {
     transition: ease-in-out .3s;
     transform: scale(1.1);
