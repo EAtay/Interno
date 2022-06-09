@@ -120,9 +120,6 @@
         width: 100%;
     }
 
-    .btn__blogs {
-        width: 40px;
-    }
 }
 
 @media (max-width:768px) {
