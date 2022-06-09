@@ -81,7 +81,20 @@
     transition: ease-in-out .3s;
     transform: scale(1.1);
 }
-
+@media (max-width:420px) {
+    .recent__container{
+        padding: 0 15px;
+    }
+    .recent__card{
+        width: 100%;
+    }
+    .recent__card img{
+        width: 100%;
+    }
+    .btn__blogs{
+        width: 40px;
+    }
+}
 @media (max-width:320px) {
     .recent__container{
         padding: 0 15px;
